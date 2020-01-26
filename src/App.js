@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import products from "./ch23/productsFromApi.js";
-import Product from  "./ch23/Product.js";
+
 import ProductMaster from  "./ch23/ProductMaster.js";
+import TodoItemMaster from  "./ch25/TodoItemMaster.js";
+import ClassMaster from  "./ch27/ClassMaster.js";
 
 function App() {
   return (
-    <ProductMaster />
+    /**  <ProductMaster /> */
+    /** <TodoItemMaster /> */
+        <ClassMaster />
     );
 }
 

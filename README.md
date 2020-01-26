@@ -30,4 +30,25 @@ In the actual component - This is how we consume :\\
 }
 
 
-# ch24 - 
+# ch24 - similar to ch23 but these are Todocomponents 
+
+# ch25 - introduction to Class based components 
+a function based component cannot do everything\ 
+class based component does some more things\ 
+
+every class based component MUST have method : render\ 
+
+you can define your own methods too inside class based components\ 
+
+calling a method from another method is done using keyword : this.<method_name>\
+
+example of using 'props' in class based component :\
+'props' will be available using : this.props\
+Example of class based component:
+```class App extends React.Component{
+	render(){
+		return(
+			<h3>hello</h3>
+		)
+	}
+}  
