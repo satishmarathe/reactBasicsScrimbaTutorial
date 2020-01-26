@@ -20,14 +20,14 @@ Since from parent we pass a json object :\\
 ```<Product obj={productElement} />```\\
 
 In the actual component - This is how we consume :\\
-```function Product(props){
+`function Product(props){
     return(
         <div>
             <h3>{props.obj.id}</h3>
             <p>{props.obj.name} - {props.obj.description}</p>
         </div>
     );
-}```
+}
 ----------------------------------------------------------------------------
 
 # ch24 - similar to ch23 but these are Todocomponents 
