@@ -27,4 +27,5 @@ In the actual component - This is how we consume :\\
             <p>{props.obj.name} - {props.obj.description}</p>
         </div>
     );
-}```\\
+}``` \\
+----------------------------------------------------------------------------
