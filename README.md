@@ -27,10 +27,12 @@ In the actual component - This is how we consume :\\
             <p>{props.obj.name} - {props.obj.description}</p>
         </div>
     );
-}
-
+}```
+----------------------------------------------------------------------------
 
 # ch24 - similar to ch23 but these are Todocomponents 
+
+----------------------------------------------------------------------------
 
 # ch25 - introduction to Class based components 
 a function based component cannot do everything\ 
