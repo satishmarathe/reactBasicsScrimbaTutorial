@@ -6,7 +6,7 @@ class ClassMaster extends React.Component{
     render(){
         return (
             <div>
-                <Header />
+                <Header username="satish" />
                 <Greeting />
             </div>
         )
