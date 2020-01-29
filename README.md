@@ -34,7 +34,7 @@ In the actual component - This is how we consume :\\
 
 ----------------------------------------------------------------------------
 
-# ch25 - introduction to Class based components 
+# ch27 - introduction to Class based components 
 a function based component cannot do everything\ 
 class based component does some more things\ 
 
@@ -54,3 +54,9 @@ Example of class based component:
 		)
 	}
 }  
+
+----------------------------------------------------------------------------
+# ch29 - introduction to state management 
+This is an example of setting up state in the 'constructor'
+once the state is setup then we use the state in 'render'
+----------------------------------------------------------------------------
