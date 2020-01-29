@@ -46,18 +46,32 @@ calling a method from another method is done using keyword : this.<method_name>\
 
 example of using 'props' in class based component :\
 'props' will be available using : this.props\
-Example of class based component:
-```class App extends React.Component{
-	render(){
-		return(
-			<h3>hello</h3>
-		)
-	}
-}  
+Example of class based component:\
+```class App extends React.Component{```\
+	```render(){```\
+		```return(```\
+			```<h3>hello</h3>```\
+		```)```\
+	```}```\
+```}```
 
 ----------------------------------------------------------------------------
+
 # ch29 - introduction to state management 
-This is an example of setting up state in the 'constructor'
+This is an example of setting up state in the 'constructor'\
+once the state is setup then we use the state in 'render'\
 
-once the state is setup then we use the state in 'render'
+
+
 ----------------------------------------------------------------------------
+# ch32 - Event handlers 
+Here we have written an example of handling an event - a mouse over an image 
+we have written a function to handle this event - in 3 flavours :
+- conventional function 
+- anonymous function 
+- arrow function 
+----------------------------------------------------------------------------
+
+
+
+
