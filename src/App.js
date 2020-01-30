@@ -7,6 +7,7 @@ import TodoItemMaster from  "./ch25/TodoItemMaster.js";
 import ClassMaster from  "./ch27/ClassMaster.js";
 import StateMaster from "./ch29/StateMaster.js";
 import EventHandlingMaster from "./ch32/EventHandlingMaster.js";
+import SetStateMaster from "./ch34/SetStateMaster.js";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     /** <TodoItemMaster /> */
     /** <ClassMaster />  */
     /**  <StateMaster /> */
-    <EventHandlingMaster />
+    /** <EventHandlingMaster /> **/
+    <SetStateMaster />
     );
 }
 
